@@ -14,7 +14,7 @@ if(!class_exists('ImportTweetsAsPosts_Settings')){
         'itap_consumer_key' => array('title'=>'Twitter Consumer Key', 'type'=>'input'),
         'itap_consumer_secret' => array('title'=>'Twitter Consumer Secret', 'type'=>'input'),
         'itap_access_token' => array('title'=>'Twitter Access Token', 'type'=>'input'),
-        'itap_access_token_secret' => array('title'=>'witter Access Token Secret', 'type'=>'input'),
+        'itap_access_token_secret' => array('title'=>'Twitter Access Token Secret', 'type'=>'input'),
         'itap_tweets_count' => array('title'=>'No. of Tweets to Import', 'type'=>'input'),
         'itap_interval_time' => array('title'=>'Tweets Imports Time Interval', 'type'=>'input'),
         'itap_post_title' => array('title'=>'Text before Tweets Post Title', 'type'=>'input'),
@@ -191,7 +191,7 @@ if(!class_exists('ImportTweetsAsPosts_Settings')){
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="PU5W6BKWH8BQE">
-            <input type="image" src="'. plugins_url('/images/btn_donate.gif', __FILE__ ).'" border="0" name="submit" alt="PayPal Ð The safer, easier way to pay online.">
+            <input type="image" src="'. plugins_url('/images/btn_donate.gif', __FILE__ ).'" border="0" name="submit" alt="PayPal Ã The safer, easier way to pay online.">
             <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
             </form>
           </div>';
